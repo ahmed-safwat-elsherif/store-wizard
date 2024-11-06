@@ -1,1 +1,5 @@
-export { default as SayHello } from "./components/SayHello";
+export {
+  default as initStore,
+  type UseStoreReturn,
+  type SetterParam,
+} from "./utils/initStore";

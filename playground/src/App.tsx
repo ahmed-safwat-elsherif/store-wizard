@@ -1,7 +1,5 @@
-import { SayHello } from "store-wizard";
+import StoreExample from "./components/StoreExample";
 
-function App() {
-  return <SayHello>Ahmed</SayHello>;
-}
+const App = () => <StoreExample />;
 
 export default App;
